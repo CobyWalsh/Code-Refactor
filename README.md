@@ -1,3 +1,3 @@
 # Challenge-1
-Week 1 Code Refactor 
+## Week 1 Code Refactor
 I was given an pre-made HTML and CSS code to refractor this week. In the HTML code I changed all the div elements to thier proper elements. These inluded elements such as header, footer, main, nav and section elements. I also added a content element explaining what Horiseion provides, as well as changing the title to Horiseion. I made sure all the clickable links were working properly and took you to the correct location on the webpage. I also added alts to all the images explaining what the images were for people who may be using the website with disabilities or if the image fails to appear. I made sure the HTML and CSS is organized and follows a semantic structure and I provided comments to the CSS code explaining what the code is performing. Lastly I deployed the application so it is live on the web.
