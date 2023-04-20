@@ -14,7 +14,7 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* .header h1 is set with a display of inline-block and the font size is set to 48px */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* .hero is an image set with the background image element with the url in place. The image is set to a height of 800px and a width of 100%, the bottom margin is set to 25px with the background position at center and the background size at cover, covering all the available space. */
 .hero {
     height: 800px;
     width: 100%;
@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* .benefits sets the majority of the styling for the benefits section. It sets the content with a margin right of 20px and padding of 20px. The element is pushed below left and right floated elements and the element is floated to the right of the container. The contents width is at 20%, the height at 100%. FIve options are set for the font and the background color is hex color of #2589bd.  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +133,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* The search engine optimization content has a bottom margin of 20 pixels, padding of 50 pixels and height of 300 pixels.The font has five options starting with Gill Sans. The background color is set to a hex color of #0072bb and the text is set to hex color of #ffffff. The two other content blocks below are set to the same dimensions */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
