@@ -24,6 +24,11 @@ body {
     color: #d9dcd6;
 }
 
+.meeting {
+    width: 100%;
+    max-width: 100%; 
+    height: auto; 
+}
 .header nav{
     padding-top: 15px;
     margin-right: 20px;
@@ -31,6 +36,8 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', "sans-serif";
     font-size: 20px;
 }
+
+
 
 .header nav ul {
     list-style-type: square;
@@ -86,21 +93,12 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* The benefit lead, brand and cost h3 elements are all set with a margin bottom of 10px and text aligned to center */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,13 +114,13 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
+.benefits-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+.benefits-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -161,6 +159,7 @@ p {
     color: #ffffff;
 }
 
+/* Set the search engine optimization img to a max height of 20px */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +172,7 @@ p {
     max-height: 200px;
 }
 
+/* I set the search engine optimization h2 class with a margin bottom of 20px ad a font size of 36px */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +188,7 @@ p {
     font-size: 36px;
 }
 
+/* Set the footer with a padding of 30px, the floating elements are not allowed to float on both sides, I set a multiple font family options and set the text align to center  */
 .footer {
     padding: 30px;
     clear: both;
